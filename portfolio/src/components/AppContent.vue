@@ -74,4 +74,12 @@ export default {
     font-family: Jua;
     font-size: 20px;
   }
+  .timeline-content-font {
+    font-family: Jua;
+    font-size: 20px;
+  }
+  .timeline-content-font-2 {
+    font-family: Jua;
+    font-size: 18px;
+  }
 </style>
