@@ -40,12 +40,6 @@ export default {
   .container {
     margin: 20px;
   }
-  .left-container {
-
-  }
-  .right-container {
-
-  }
   .left-content {
     margin: 8px 8px 8px 8px;
     border: 1px solid lightgray;
@@ -56,9 +50,6 @@ export default {
     margin: 8px 8px 8px 8px;
     border: 1px solid lightgray;
     border-radius: 5px;
-  }
-  .content-section {
-
   }
   hr {
     margin: 0px 20px 0px 20px;

@@ -15,6 +15,7 @@
         <b-nav-item href="#profile">Profile</b-nav-item>
         <b-nav-item href="#timeline">TimeLine</b-nav-item>
         <b-nav-item href="#skill">Skill</b-nav-item>
+        <b-nav-item href="#project">Project</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

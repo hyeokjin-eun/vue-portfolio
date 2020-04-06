@@ -1,5 +1,5 @@
 <template>
-    <div class="content-section text-center title-font" id="skill">
+    <div class="content-section text-center title-font" id="project">
         Project
     </div>
 </template>
