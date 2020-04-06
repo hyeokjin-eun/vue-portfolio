@@ -2,59 +2,15 @@
   <div id="AppContent">
     <b-container class="align-items-center">
       <b-row>
-        <b-col class="left-container p-0" sm="4">
-          <div class="left-content p-2 shadow text-center">
-            Back-End Developer
-          </div>
-          <div class="left-content p-2 shadow text-center">
-            Introduction
-          </div>
-          <div class="left-content p-2 shadow text-center">
-            Contact
-          </div>
-          <div class="left-content p-2 shadow text-center">
-            Interests
-          </div>
-        </b-col>
-        <b-col class="light-container p-0" sm="8">
-          <div class="light-content p-2 shadow">
-            <div class="content-section text-center">
-              Profile
-            </div>
+        <b-col class="right-container p-0" sm="12">
+          <div class="right-content p-2 shadow">
+            <ContentProfile />
             <hr>
-            <div class="content-section text-center">
-              TimeLine
-            </div>
+            <ContentTimeLine />
             <hr>
-            <div class="content-section text-center">
-              Skill
-              <div>
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/java 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/docker 330 290.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/elk 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/git 360.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/gradle 256.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/intellij 600.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/jenjins 800.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/kotlin 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/linux 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/mariadb 250.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/maven 340.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/mssql 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/mybatis 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/mysql 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/nginx 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/nodejs 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/python 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/Rxjava 320.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/spring 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/spring data jpa 300.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/springboot 300.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/swagger 300.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/tomcat 200.png">
-                <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/vue 400.png">
-              </div>
-            </div>
+            <ContentSkill />
+            <hr>
+            <ContentProject />
           </div>
         </b-col>
       </b-row>
@@ -63,29 +19,41 @@
 </template>
 
 <script>
-export default {
+import ContentProfile from './ContentProfile.vue';
+import ContentTimeLine from './ContentTimeline.vue';
+import ContentSkill from './ContentSkill.vue';
+import ContentProject from './ContentProject.vue';
 
+export default {
+  components: {
+    ContentProfile,
+    ContentTimeLine,
+    ContentSkill,
+    ContentProject
+  }
 }
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
   .container {
     margin: 20px;
   }
   .left-container {
 
   }
-  .light-container {
+  .right-container {
 
   }
   .left-content {
-    margin: 16px 8px 16px 8px;
+    margin: 8px 8px 8px 8px;
     border: 1px solid lightgray;
     border-radius: 5px;
     height: 350px;
   }
-  .light-content {
-    margin: 16px 8px 16px 8px;
+  .right-content {
+    margin: 8px 8px 8px 8px;
     border: 1px solid lightgray;
     border-radius: 5px;
   }
@@ -94,5 +62,25 @@ export default {
   }
   hr {
     margin: 0px 20px 0px 20px;
+  }
+  .title-font {
+    font-family: Jua;
+    font-size: 25px;
+  }
+  .profile-title-font {
+    font-family: Jua;
+    font-size: 30px;
+    color: darkblue;
+  }
+  .profile-content-font {
+    font-family: Jua;
+    font-size: 17px;
+  }
+  .profile-content {
+    margin: 10px;
+  }
+  .timeline-title-font {
+    font-family: Jua;
+    font-size: 20px;
   }
 </style>
