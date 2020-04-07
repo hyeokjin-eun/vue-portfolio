@@ -6,7 +6,7 @@
             <b-row>
                 <b-col sm="6">
                     <div>
-                        사용 기술
+                        보유 기술
                     </div>
                     <div>
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/java 200.png">
@@ -32,7 +32,7 @@
                 </b-col>
                 <b-col sm="6">
                     <div>
-                        관심 기술
+                        관심 분야
                     </div>
                     <div>
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/spring data jpa 300.png">
