@@ -2,8 +2,8 @@
   <div id="AppContent">
     <b-container class="align-items-center">
       <b-row>
-        <b-col class="right-container p-0" sm="12">
-          <div class="right-content p-2 shadow">
+        <b-col class="app-content-container p-0" sm="12">
+          <div class="app-content-content p-2 shadow">
             <ContentProfile />
             <hr>
             <ContentTimeLine />
@@ -40,13 +40,7 @@ export default {
   .container {
     margin: 20px;
   }
-  .left-content {
-    margin: 8px 8px 8px 8px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    height: 350px;
-  }
-  .right-content {
+  .app-content-content {
     margin: 8px 8px 8px 8px;
     border: 1px solid lightgray;
     border-radius: 5px;

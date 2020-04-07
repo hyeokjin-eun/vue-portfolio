@@ -24,6 +24,9 @@
                             <b-col class="profile-content p-0" style="margin: 10px 0px 10px 0px;">
                                 Github : 
                             </b-col>
+                            <b-col class="profile-content p-0" style="margin: 10px 0px 10px 0px;">
+                                Blog : 
+                            </b-col>
                         </div>
                         <div class="text-left profile-content-font">
                             <b-col class="profile-content">
@@ -37,6 +40,9 @@
                             </b-col>
                             <b-col class="profile-content">
                                 <a href="https://github.com/hyeokjin-eun">github.com/hyeokjin-eun</a>
+                            </b-col>
+                            <b-col class="profile-content">
+                                <a href="https://sseambong.tistory.com">sseambong.tistory.com</a>
                             </b-col>
                         </div>
                     </b-row>
