@@ -1,5 +1,5 @@
 <template>
-    <div class="content-section text-center title-font" id="skill">
+    <div class="text-center title-font" id="skill">
             Skill
         <div>
         <b-container class="align-items-center">

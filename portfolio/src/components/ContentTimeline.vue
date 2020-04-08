@@ -1,5 +1,5 @@
 <template>
-    <div class="content-section text-center title-font" id="timeline">
+    <div class="text-center title-font" id="timeline">
         TimeLine
         <b-container>
             <b-row>
@@ -25,9 +25,11 @@
                             - Build Tool : Maven <br>
                             - 데이터 베이스 : My-Sql
                         </div>
-                        <b-icon icon="check-box" style="margin-top:10px;"></b-icon> 맡은 역할
+                        <b-icon icon="check-box" style="margin-top:10px;"></b-icon> 담당 부분
                         <div class="timeline-content-font-2" style="padding: 0px 0px 0px 20px;">
-                            그냥 적기
+                            PMS를 접목한 크라우드 펀딩을 통해 기업의 재정적 필요를 충족시키고, 투자자의
+                            투자 수익율을 보장하는 크라우드 펀딩 사이트이며,
+                            투자 관련 메뉴 탭을 개발 하였습니다.
                         </div>
                     </div>
                 </b-col>
@@ -56,9 +58,12 @@
                             - Build Tool : Maven <br>
                             - 데이터 베이스 : MS-Sql, My-Sql
                         </div>
-                        <b-icon icon="check-box" style="margin-top:10px;"></b-icon> 맡은 역할
+                        <b-icon icon="check-box" style="margin-top:10px;"></b-icon> 담당 업무
                         <div class="timeline-content-font-2" style="padding: 0px 0px 0px 20px;">
-                            그냥 적기
+                            배달 음식을 주문하여 배달 받을수 있는 외식 배달 카카오톡 플랫폼으로
+                            카카오 주문하기 ADMIN 개발을 주로 담당 하였으며 제품, 매장, 브랜드, 쿠폰, CS관련
+                            기능등을 개발 하였습니다. 또한 신규 개발 및 유지보수 및 
+                            수탁사 점검 데이터 관리를 담당 하였습니다.
                         </div>
                     </div>
                 </b-col>
@@ -100,9 +105,10 @@
                             - Build Tool : Maven <br>
                             - 데이터 베이스 : H2
                         </div>
-                        <b-icon icon="check-box" style="margin-top:10px;"></b-icon> 맡은 역할
+                        <b-icon icon="check-box" style="margin-top:10px;"></b-icon> 담당 업무
                         <div class="timeline-content-font-2" style="padding: 0px 0px 0px 20px;">
-                            그냥 적기
+                            모하지는 여행 상품 판매 서비스로 해외 API를 이용하여 상품을 등록하고 사용자에게
+                            상품을 제공하고 판매하는등 서버 간의 API 연동 작업을 진행 하였습니다.
                         </div>
                     </div>
 
@@ -122,9 +128,12 @@
                             - Build Tool : Maven <br>
                             - 데이터 베이스 : MariaDB, Redis 
                         </div>
-                        <b-icon icon="check-box" style="margin-top:10px;"></b-icon> 맡은 역할
+                        <b-icon icon="check-box" style="margin-top:10px;"></b-icon> 담당 업무
                         <div class="timeline-content-font-2" style="padding: 0px 0px 0px 20px;">
-                            그냥 적기
+                            출장도사는 사용자, 도사간의 온라인 상담 서비스로 출장도사 Back End 개발을
+                            담당 하였습니다. 서버 API 개발, 결제 모듈 연동, 소켓 연결, VueJs 를 활용한 ADMIN
+                            개발, 서버 관리 및 세팅, 데이터 관리, CI/CD 관리, 버전 관리, Swagger를 활용한 
+                            API 문서 작성 등 전반적인 Back End 서비스를 담당 개발 하였습니다.
                         </div>
                     </div>
                 </b-col>
