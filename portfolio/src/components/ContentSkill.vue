@@ -40,6 +40,7 @@
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/elk 200.png">
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/Rxjava 320.png">
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/python 200.png">
+                        <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/go 400.png">
                     </div>
                 </b-col>
             </b-row>
