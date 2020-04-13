@@ -2,9 +2,9 @@
     <div class="text-center title-font" id="skill">
             Skill
         <div>
-        <b-container class="align-items-center">
-            <b-row>
-                <b-col sm="6">
+        <div class="align-items-center container">
+            <div class="row">
+                <div class="col-sm-6">
                     <div>
                         보유 기술
                     </div>
@@ -29,8 +29,8 @@
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/nodejs 200.png">
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/spring 200.png">
                     </div>
-                </b-col>
-                <b-col sm="6">
+                </div>
+                <div class="col-sm-6">
                     <div>
                         관심 분야
                     </div>
@@ -42,9 +42,9 @@
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/python 200.png">
                         <img class="shadow-sm" width="70" height="70" style="border: 1px solid lightgray; border-radius: 15px; margin: 6px; padding: 5px" src="../assets/go 400.png">
                     </div>
-                </b-col>
-            </b-row>
-        </b-container>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 </template>

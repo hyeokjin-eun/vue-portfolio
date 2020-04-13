@@ -2,9 +2,9 @@
     <div class=" text-center title-font" id="project">
         GitHub Project
         <div style="margin: 20px 0px 20px 0px;">
-        <b-container class="align-items-center">
-            <b-row style="padding: 0px 10px 0px 10px;">
-                <b-col md="4" style="display: flex;">
+        <div class="align-items-center container">
+            <div class="row" style="padding: 0px 10px 0px 10px;">
+                <div class="col-sm-4" style="display: flex;">
                     <div class="project-content">
                         <div class="project-content-title">
                             <a href="https://github.com/hyeokjin-eun/eatgo-project-fc">
@@ -17,8 +17,8 @@
                             JWT, Spring Boot, Spring Security 등을 활용한 가게 예약 프로젝트 입니다.
                         </div>
                     </div>
-                </b-col>
-                <b-col md="4" style="display: flex;">
+                </div>
+                <div class="col-sm-4" style="display: flex;">
                     <div class="project-content">
                         <div class="project-content-title">
                             <a href="https://github.com/hyeokjin-eun/admin-project-fc">
@@ -31,8 +31,8 @@
                             활용한 어드민 프로젝트 입니다.
                         </div>
                     </div>
-                </b-col>
-                <b-col md="4" style="display: flex;">
+                </div>
+                <div class="col-sm-4" style="display: flex;">
                     <div class="project-content">
                         <div class="project-content-title">
                             <a href="https://github.com/hyeokjin-eun/java-board">
@@ -46,10 +46,10 @@
                             활용하여 Restful API 개발을 위한 Java 프로젝트 입니다.
                         </div>
                     </div>
-                </b-col>
-            </b-row>
-            <b-row style="padding 0px 10px 0px 10px;">
-                <b-col md="4" style="display: flex;">
+                </div>
+            </div>
+            <div class="row" style="padding: 0px 10px 0px 10px;">
+                <div class="col-sm-4" style="display: flex;">
                     <div class="project-content">
                         <div class="project-content-title">
                             <a href="https://github.com/hyeokjin-eun/python-base-fc">
@@ -61,8 +61,8 @@
                             Python 학습을 위한 프로젝트로 기초 문법 학습을 위한 프로젝트 입니다.
                         </div>
                     </div>
-                </b-col>
-                <b-col md="4" style="display: flex;">
+                </div>
+                <div class="col-sm-4" style="display: flex;">
                     <div class="project-content">
                         <div class="project-content-title">
                             <a href="https://github.com/hyeokjin-eun/kotlin-board">
@@ -75,8 +75,8 @@
                             Swagger를 활용하여 Web API 개발을 위한 Kotlin 프로젝트 입니다.
                         </div>
                     </div>
-                </b-col>
-                <b-col md="4" style="display: flex;">
+                </div>
+                <div class="col-sm-4" style="display: flex;">
                     <div class="project-content">
                         <div class="project-content-title">
                             <a href="https://github.com/hyeokjin-eun/vue-portfolio">
@@ -88,10 +88,10 @@
                             Vue 포트폴리오 프로젝트로 현재 보고 있는 포트폴리오 프로젝트 입니다.
                         </div>
                     </div>
-                </b-col>
-            </b-row>
-            <b-row>
-                <b-col md="4" style="display: flex;">
+                </div>
+            </div>
+            <div class="row" style="padding: 0px 10px 0px 10px;">
+                <div class="col-sm-4" style="display: flex;">
                     <div class="project-content">
                         <div class="project-content-title">
                             <a href="https://github.com/hyeokjin-eun/vue-start-study">
@@ -104,9 +104,9 @@
                             Computed, Watch, Vue-CLI 등을 학습하기 위한 프로젝트 입니다.
                         </div>
                     </div>
-                </b-col>
-            </b-row>
-        </b-container>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 </template>

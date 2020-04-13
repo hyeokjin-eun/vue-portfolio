@@ -1,8 +1,8 @@
 <template>
   <div id="AppContent">
-    <b-container class="align-items-center">
-      <b-row>
-        <b-col class="app-content-container p-0" sm="12">
+    <div class="align-items-center container">
+      <div class="row">
+        <div class="app-content-container p-0 col-sm-12">
           <div class="app-content-content p-2 shadow">
             <ContentProfile />
             <hr>
@@ -12,9 +12,9 @@
             <hr>
             <ContentProject />
           </div>
-        </b-col>
-      </b-row>
-    </b-container>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

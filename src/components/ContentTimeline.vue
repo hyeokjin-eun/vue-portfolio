@@ -1,13 +1,13 @@
 <template>
     <div class="text-center title-font" id="timeline">
         TimeLine
-        <b-container>
-            <b-row>
-                <b-col class="timeline-title-font text-right" sm="3" style="margin: 10px 20px 10px 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="timeline-title-font text-right col-sm-3" style="margin: 10px 20px 10px 20px;">
                     <div>2017.04 ~ 2017.10</div>
                     <div>(교육)</div>
-                </b-col>
-                <b-col class="timeline-title-font text-left" sm="8"  style="margin: 10px 0px 10px 0px;">
+                </div>
+                <div class="timeline-title-font text-left col-sm-8" style="margin: 10px 0px 10px 0px;">
                     한국 스마트 정보 교육원
                     <div class="timeline-content-font">
                         - 크라우딩 펀딩 사이트
@@ -32,15 +32,15 @@
                             투자 관련 메뉴 탭을 개발 하였습니다.
                         </div>
                     </div>
-                </b-col>
-            </b-row>
+                </div>
+            </div>
             <hr>
-            <b-row>
-                <b-col class="timeline-title-font text-right" sm="3" style="margin: 10px 20px 10px 20px;">
+            <div class="row">
+                <div class="timeline-title-font text-right col-sm-3" style="margin: 10px 20px 10px 20px;">
                     <div>2017.11 ~ 2019.02</div>
                     <div>(경력)</div>
-                </b-col>
-                <b-col class="timeline-title-font text-left" sm="8"  style="margin: 10px 0px 10px 0px;">
+                </div>
+                <div class="timeline-title-font text-left col-sm-8" style="margin: 10px 0px 10px 0px;">
                     씨엔티 테크 <br>
                     <div class="timeline-content-font">
                         - 카카오 주문하기
@@ -66,28 +66,28 @@
                             수탁사 점검 데이터 관리를 담당 하였습니다.
                         </div>
                     </div>
-                </b-col>
-            </b-row>
+                </div>
+            </div>
             <hr>
-            <b-row>
-                <b-col class="timeline-title-font text-right" sm="3" style="margin: 10px 20px 10px 20px;">
+            <div class="row">
+                <div class="timeline-title-font text-right col-sm-3" style="margin: 10px 20px 10px 20px;">
                     <div>2018.03 ~ 현재</div>
                     <div>(교육)</div>
-                </b-col>
-                <b-col class="timeline-title-font text-left" sm="8"  style="margin: 10px 0px 10px 0px;">
+                </div>
+                <div class="timeline-title-font text-left col-sm-8" sm="8"  style="margin: 10px 0px 10px 0px;">
                     한국방송통신대학교
                     <div class="timeline-content-font">
                         - 컴퓨터 과학과 재학중
                     </div>
-                </b-col>
-            </b-row>
+                </div>
+            </div>
             <hr>
-            <b-row>
-                <b-col class="timeline-title-font text-right" sm="3" style="margin: 10px 20px 10px 20px;">
+            <div class="row">
+                <div class="timeline-title-font text-right col-sm-3" style="margin: 10px 20px 10px 20px;">
                     <div>2019.07 ~ 현재</div>
                     <div>(경력)</div>
-                </b-col>
-                <b-col class="timeline-title-font text-left" sm="8" style=" margin: 10px 0px 10px 0px;">
+                </div>
+                <div class="timeline-title-font text-left col-sm-8" style=" margin: 10px 0px 10px 0px;">
                     이모션 글로벌
                     <div class="timeline-content-font">
                         - 모하지 여행 플랫폼
@@ -136,9 +136,9 @@
                             API 문서 작성 등 전반적인 Back End 서비스를 담당 개발 하였습니다.
                         </div>
                     </div>
-                </b-col>
-            </b-row>
-        </b-container>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
